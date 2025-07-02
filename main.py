@@ -7,6 +7,7 @@ import discord
 from discord.ext import commands, tasks
 from flask import Flask
 from threading import Thread
+from keep_alive import keep_alive
 
 # Load environment variables from Replit's Secrets tab
 DISCORD_TOKEN     = os.getenv("DISCORD_TOKEN")
